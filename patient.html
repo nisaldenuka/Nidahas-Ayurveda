@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="patient.css">
+</head>
+<body>
+  <div class="patient-page">
+    <div class="form">
+      <h2>Patients</h2>
+      <button onclick="window.location.href = 'addPatient.php'" class="add-patient">Add Patient</button>
+      <button onclick="window.location.href = 'deletepatient.php'" class="delete-patient">Delete Patient</button>
+      <button onclick="window.location.href = 'updatepatient.php'" class="update-patient">Update Patient</button>
+      <button onclick="window.location.href = 'patientaddinfo.php'" class="view-patient">Add Patient History</button>
+      <form class="search-form" action="searchpatient.php" method="post">
+        <input type="text" name="txtsk" placeholder="Search Patient"/>
+        <button>Search</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

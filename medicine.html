@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medicine Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="patient.css">
+</head>
+<body>
+  <div class="patient-page">
+    <div class="form">
+      <h2>Medicine</h2>
+      <button onclick="window.location.href = 'addMedicine.php'" class="add-patient">Add Medicine</button>
+      <button onclick="window.location.href = 'deletemedicine.php'" class="delete-patient">Delete Medicine</button>
+      <button onclick="window.location.href = 'updatemedicine.php'" class="update-patient">Update Medicine</button>
+      <button onclick="window.location.href = 'categorymedicine.php'" class="update-patient">Medicine Categories</button>
+      <button onclick="window.location.href = 'stock.php'" class="view-patient">View Stock details</button>
+      <form class="search-form" action="searchmedicine.php" method="post">
+        <input type="text" name="txtsk" placeholder="Search Medicine"/>
+        <button>Search</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

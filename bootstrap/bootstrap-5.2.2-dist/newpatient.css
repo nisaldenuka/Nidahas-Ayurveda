@@ -1,0 +1,38 @@
+.patient table{
+	width: 100%;
+	margin: 15px;
+}
+.patient table thead td {
+	padding: 30px 0;
+	border-bottom: 1px solid #EEEEEE;
+
+	
+}
+.patient table thead{
+	background-color: lightgreen;
+	padding: 30px 0;
+}
+.buttons{
+	border: none;
+    font-size: 15px;
+	padding: 10px 16px;
+	border-radius: 6px;
+	color: #FFF;
+	background: linear-gradient(135deg, #c5f25c, #2fd43a);
+	position: relative;
+	margin: 12px;
+	width: 8rem;
+	
+}
+.patient table tbody tr:nth-child(odd){
+	background-color: #eeeeee;
+
+}
+.patient table tbody td{
+	margin: 10px;
+	padding: 12px 15px;
+}
+
+.buttons:hover{
+	background: springgreen;
+}
